@@ -1,0 +1,25 @@
+{
+  "name": "@approvers/stylelint-config-scss",
+  "version": "0.0.0",
+  "description": "The shareable SCSS config for stylelint",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "scss",
+    "approvers"
+  ],
+  "homepage": "https://github.com/approvers/stylelint-config-scss#readme",
+  "bugs": {
+    "url": "https://github.com/approvers/stylelint-config-scss/issues"
+  },
+  "license": "MIT",
+  "author": "SHUN/しゅん <shun.shobon@gmail.com> (https://github.com/shun-shobon)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/approvers/stylelint-config-scss.git"
+  }
+}
