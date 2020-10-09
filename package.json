@@ -23,6 +23,7 @@
     "url": "git+https://github.com/approvers/stylelint-config-scss.git"
   },
   "scripts": {
+    "test": "jest",
     "lint": "eslint --ignore-path .gitignore '**/*.js'",
     "lint:fix": "eslint --ignore-path .gitignore '**/*.js' --fix"
   },
