@@ -19,7 +19,6 @@ module.exports = {
         ignoreAtRules: ["if", "else"],
       },
     ],
-    "scss/at-rule-no-unknown": true,
     "scss/at-each-key-value-single-line": true,
     "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
     "scss/at-else-closing-brace-space-after": "always-intermediate",
@@ -36,5 +35,7 @@ module.exports = {
     "scss/at-mixin-argumentless-call-parentheses": "always",
     "scss/at-mixin-named-arguments": "never",
     "scss/at-mixin-parentheses-space-before": "never",
+    "scss/at-rule-conditional-no-parentheses": true,
+    "scss/at-rule-no-unknown": true,
   },
 };
