@@ -54,5 +54,13 @@ module.exports = {
         ignore: ["after-comment", "inside-single-line-block"],
       },
     ],
+    "scss/double-slash-comment-empty-line-before": [
+      "always",
+      {
+        except: ["first-nested"],
+        ignore: ["stylelint-commands", "inside-block"],
+      },
+    ],
+    "scss/double-slash-comment-whitespace-inside": "always",
   },
 };
