@@ -33,5 +33,8 @@ module.exports = {
     "scss/at-if-no-null": true,
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/at-import-partial-extension": "never",
+    "scss/at-mixin-argumentless-call-parentheses": "always",
+    "scss/at-mixin-named-arguments": "never",
+    "scss/at-mixin-parentheses-space-before": "never",
   },
 };
