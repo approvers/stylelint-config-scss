@@ -1,8 +1,10 @@
 {
   "env": {
     "node": true,
-    "es2021": true
+    "es2021": true,
+    "jest/globals": true
   },
+  "plugins": ["jest"],
   "parserOptions": {
     "sourceType": "module"
   },

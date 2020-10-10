@@ -23,6 +23,7 @@
     "url": "git+https://github.com/approvers/stylelint-config-scss.git"
   },
   "scripts": {
+    "test": "jest",
     "lint": "eslint --ignore-path .gitignore '**/*.js'",
     "lint:fix": "eslint --ignore-path .gitignore '**/*.js' --fix"
   },
@@ -38,12 +39,17 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.14",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.3.0",
+    "jest": "^26.5.2",
     "lint-staged": "^10.4.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-scss": "^3.18.0"
   },
   "peerDependencies": {
     "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0",
