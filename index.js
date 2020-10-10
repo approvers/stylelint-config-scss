@@ -31,5 +31,7 @@ module.exports = {
     "scss/at-if-closing-brace-newline-after": "always-last-in-chain",
     "scss/at-if-closing-brace-space-after": "always-intermediate",
     "scss/at-if-no-null": true,
+    "scss/at-import-no-partial-leading-underscore": true,
+    "scss/at-import-partial-extension": "never",
   },
 };
