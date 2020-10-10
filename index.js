@@ -8,5 +8,7 @@ module.exports = {
     "scss/at-rule-no-unknown": true,
     "scss/at-each-key-value-single-line": true,
     "scss/at-extend-no-missing-placeholder": true,
+    "scss/at-function-named-arguments": "never",
+    "scss/at-function-parentheses-space-before": "never",
   },
 };
