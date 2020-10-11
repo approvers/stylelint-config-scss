@@ -1,0 +1,61 @@
+@import "foo";
+@import "_bar.css";
+
+$map: (
+  "x": 100px,
+  "y": 200px,
+  "z": 300px,
+);
+
+@each $key, $value in $map {
+  .selector {
+    $key: $value;
+  }
+}
+
+%extend { display: block; }
+.selector-1 { @extend %extend; }
+.selector-2 { @extend %extend; }
+
+@function func($x, $y) {
+  @return $x + $y;
+}
+
+.selector-a { width: func(100px, 200px); }
+.selector-b { height: func(3rem, 1rem); }
+.selector-c { border-radius: func(2em, 4em); }
+
+.selector-d {
+  @if 1 == 1 {
+    height: 10px;
+  } @else if 2 == 2 {
+    height: 20px;
+  } @else {
+    height: 30px;
+  }
+
+  @if 2 == 2 { width: 30px; }
+}
+
+@mixin mixin-a($foo) {
+  font-size: $foo;
+}
+
+@mixin mixin-b() {
+  display: flex;
+}
+
+.selector-e {
+  @include mixin-a(100px);
+  @include mixin-b();
+}
+
+$variable-a: 10px;
+$variable-b:
+  20px,
+  30px;
+
+.selector-f {
+  /* comment */
+  $variable-c: 40px;
+}
