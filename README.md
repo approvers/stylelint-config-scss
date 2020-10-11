@@ -10,6 +10,7 @@ Use it as is or as a foundation for your own config.
 
 To see the rules tha this config uses, please read the [config itself](https://github.com/approvers/stylelint-config-scss/blob/master/index.js).
 
+
 ## Installation
 
 ```shell script
@@ -28,6 +29,7 @@ You just set your `stylelint` config to:
 }
 ```
 
+
 ### Extending the config
 
 Simply add a `"rules"` key to your config if you want overrides and additions there.
@@ -43,6 +45,7 @@ For example, turn off `at-rule-conditional-no-parentheses` rule, and turn on `do
   }
 }
 ```
+
 
 ## [License](https://github.com/approvers/stylelint-config-scss/blob/master/LICENSE)
 
