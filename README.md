@@ -34,7 +34,7 @@ You just set your `stylelint` config to:
 
 Simply add a `"rules"` key to your config if you want overrides and additions there.
 
-For example, turn `at-rule-conditional-no-parentheses` rule off, and turn `dollar-variable-default` rule on.
+For example, turn `at-rule-conditional-no-parentheses` rule off and turn `dollar-variable-default` rule on:
 
 ```json
 {
