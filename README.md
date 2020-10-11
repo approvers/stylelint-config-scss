@@ -16,3 +16,30 @@ To see the rules tha this config uses, please read the [config itself](https://g
 # stylelint and stylelint-scss are peer dependencies for this package.
 npm install stylelint stylelint-scss @approvers/stylelint-config-scss
 ```
+
+
+## Usage
+
+You just set your `stylelint` config to:
+
+```json
+{
+  "extends": ["@approvers/stylelint-config-scss"]
+}
+```
+
+### Extending the config
+
+Simply add a `"rules"` key to your config if you want overrides and additions there.
+
+For example, turn off `at-rule-conditional-no-parentheses` rule, and turn on `dollar-variable-default` rule.
+
+```json
+{
+  "extends": ["@approvers/stylelint-config-scss"],
+  "rules": {
+    "at-rule-conditional-no-parentheses": null,
+    "dollar-variable-default": true
+  }
+}
+```
