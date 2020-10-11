@@ -8,7 +8,7 @@ Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-con
 
 Use it as is or as a foundation for your own config.
 
-About the rules which is used this config, please see the [config itself](https://github.com/approvers/stylelint-config-scss/blob/master/index.js).
+About the rules which is used this config, please see the [config itself](index.js).
 
 
 ## Installation
@@ -47,6 +47,6 @@ For example, turn `at-rule-conditional-no-parentheses` rule off and turn `dollar
 ```
 
 
-## [License](https://github.com/approvers/stylelint-config-scss/blob/master/LICENSE)
+## [License](LICENSE)
 
 MIT License.
