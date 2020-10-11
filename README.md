@@ -1,5 +1,7 @@
 # stylelint-config-scss
 
+![test](https://github.com/approvers/stylelint-config-scss/workflows/test/badge.svg)
+
 > The shareable SCSS config for stylelint.
 
 Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard), enables [`stylelint-scss`](https://github.com/kristerkari/stylelint-scss).
