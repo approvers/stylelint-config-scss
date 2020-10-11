@@ -8,7 +8,7 @@ Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-con
 
 Use it as is or as a foundation for your own config.
 
-To see the rules tha this config uses, please read the [config itself](https://github.com/approvers/stylelint-config-scss/blob/master/index.js).
+To see the rules that this config uses, please read the [config itself](https://github.com/approvers/stylelint-config-scss/blob/master/index.js).
 
 
 ## Installation
@@ -34,7 +34,7 @@ You just set your `stylelint` config to:
 
 Simply add a `"rules"` key to your config if you want overrides and additions there.
 
-For example, turn off `at-rule-conditional-no-parentheses` rule, and turn on `dollar-variable-default` rule.
+For example, turn `at-rule-conditional-no-parentheses` rule off, and turn `dollar-variable-default` rule on.
 
 ```json
 {
