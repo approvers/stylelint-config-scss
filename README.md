@@ -1,4 +1,4 @@
-# stylelint-config-scss
+# @approvers/stylelint-config-scss
 
 [![npm](https://img.shields.io/npm/v/@approvers/stylelint-config-scss?style=flat-square)](https://www.npmjs.com/package/@approvers/stylelint-config-scss)
 [![test](https://img.shields.io/github/workflow/status/approvers/stylelint-config-scss/test?label=test&style=flat-square)](https://github.com/approvers/stylelint-config-scss/actions?query=workflow%3Atest+branch%3Amaster)
