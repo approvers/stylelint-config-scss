@@ -43,3 +43,7 @@ For example, turn off `at-rule-conditional-no-parentheses` rule, and turn on `do
   }
 }
 ```
+
+## [License](https://github.com/approvers/stylelint-config-scss/blob/master/LICENSE)
+
+MIT License.
