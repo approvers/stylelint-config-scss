@@ -21,7 +21,7 @@ npm install stylelint stylelint-scss @approvers/stylelint-config-scss
 
 ## Usage
 
-All you need to do is to set your `stylelint` config to;
+All you need to do is to set your `stylelint` config to:
 
 ```json
 {
@@ -34,7 +34,7 @@ All you need to do is to set your `stylelint` config to;
 
 If you want to override and add rules to your config, simply add the `"rules"` key there.
 
-For example, turn `at-rule-conditional-no-parentheses` rule off and turn `dollar-variable-default` rule on;
+For example, turn `at-rule-conditional-no-parentheses` rule off and turn `dollar-variable-default` rule on:
 
 ```json
 {
