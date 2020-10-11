@@ -47,6 +47,9 @@ For example, turn `at-rule-conditional-no-parentheses` rule off and turn `dollar
 ```
 
 
+## [Changelog](CHANGELOG.md)
+
+
 ## [License](LICENSE)
 
 MIT License.
