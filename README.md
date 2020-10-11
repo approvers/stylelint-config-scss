@@ -15,7 +15,7 @@ About the rules which is used this config, please see the [config itself](index.
 
 ```shell script
 # stylelint and stylelint-scss are peer dependencies for this package.
-npm install stylelint stylelint-scss @approvers/stylelint-config-scss
+npm install --save-dev stylelint stylelint-scss @approvers/stylelint-config-scss
 ```
 
 
